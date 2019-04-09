@@ -1,8 +1,8 @@
 import * as  Sequelize from "sequelize";
 import { genSaltSync, hashSync, compareSync } from 'bcryptjs'
 
-import { BaseModelInterface } from "../intefaces/BaseModelInterface";
-import { ModelsInterface } from "../intefaces/ModelsInteface";
+import { BaseModelInterface } from "../interfaces/BaseModelInterface";
+import { ModelsInterface } from "../interfaces/ModelsInterface";
 
 export interface UserAttributes {
     id?: number;

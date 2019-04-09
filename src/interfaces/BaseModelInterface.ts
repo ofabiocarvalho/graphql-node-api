@@ -1,4 +1,4 @@
-import { ModelsInterface } from "./ModelsInteface";
+import { ModelsInterface } from "./ModelsInterface";
 
 export interface BaseModelInterface {
 
